@@ -8,3 +8,5 @@ const rl = readline.createInterface({
 });
 
 const client = new EventEmitter ();
+
+server(client)

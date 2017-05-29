@@ -10,3 +10,7 @@ const rl = readline.createInterface({
 const client = new EventEmitter ();
 
 server(client)
+
+rl.on('line', (input) => {
+    console.log(input)
+})
